@@ -56,9 +56,6 @@ public class Program {
 		System.out.println("Delete completed");
 		System.out.println();
 		
-		
-		
-		
 		scanner.close();
 	}
 }
