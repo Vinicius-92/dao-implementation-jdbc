@@ -39,6 +39,13 @@ public class Program2 {
 		System.out.println(department);
 		System.out.println();
 		
+		System.out.println("==== TEST 5: department update =====");
+		department = departmentDao.findById(1);
+		department.setName("Foods");
+		departmentDao.update(department);
+		System.out.println("Update completed");
+		System.out.println();
+		
 		scanner.close();
 	}
 }
