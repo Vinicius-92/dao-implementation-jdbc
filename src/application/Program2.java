@@ -34,6 +34,10 @@ public class Program2 {
 		}
 		System.out.println();
 		
+		System.out.println("==== TEST 4: department findById =====");
+		Department department = departmentDao.findById(3);
+		System.out.println(department);
+		System.out.println();
 		
 		scanner.close();
 	}
